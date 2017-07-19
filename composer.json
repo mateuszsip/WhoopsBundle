@@ -1,14 +1,14 @@
 {
-    "name": "kejwmen/whoops-bundle",
+    "name": "nicoorfi/whoops-bundle",
     "description": "Symfony3 integration for Whoops",
     "type": "bundle",
     "license": "MIT",
-    "homepage": "https://github.com/kejwmen/WhoopsBundle",
+    "homepage": "https://github.com/nicoorfi/WhoopsBundle",
     "authors": [
         {
-            "name": "Mateusz Sip",
-            "email": "mateusz.sip@gmail.com",
-            "homepage": "http://matsip.com"
+            "name": "Nico Orfi",
+            "email": "nico_orfi@yahoo.com   ",
+            "homepage": "nico-orfi.com."
         }
     ],
     "require": {
