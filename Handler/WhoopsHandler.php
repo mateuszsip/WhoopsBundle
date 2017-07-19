@@ -16,7 +16,11 @@ class WhoopsHandler
 
         $format = $request->getRequestFormat();
         if ('html' == $format) {
+
             $handler = new PrettyPageHandler();
+            $handler->setEditor('phpstorm');
+            $handler->addEditor('phpstorm', 'http://localhost:8091?message=%file:%line');
+
 
             $handler->addDataTable(
                 'App',

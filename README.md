@@ -23,3 +23,7 @@ INSTALLATION
             }
         }
     ```
+
+3. Install [Remote Call](https://plugins.jetbrains.com/plugin/6027-remote-call) plugin in your Phpstorm.
+
+4. Go to `Settings|Other Settings|Remote Call` and make sure that `Listening port` is `8091`.
