@@ -1,24 +1,26 @@
 {
-    "name": "nicoorfi/whoops-bundle",
-    "description": "Symfony3 integration for Whoops",
-    "type": "bundle",
-    "license": "MIT",
-    "homepage": "https://github.com/nicoorfi/WhoopsBundle",
-    "authors": [
-        {
-            "name": "Nico Orfi",
-            "email": "nico_orfi@yahoo.com   ",
-            "homepage": "nico-orfi.com."
-        }
-    ],
-    "require": {
-        "php": ">=5.5.0",
-        "symfony/framework-bundle": "^3.0.0",
-        "filp/whoops": "^2.0.0"
-    },
-    "autoload": {
-        "psr-0": {"Kejwmen\\WhoopsBundle": ""}
-    },
-    "target-dir": "Kejwmen/WhoopsBundle",
-    "minimum-stability": "dev"
+  "name": "nicoorfi/whoops-bundle",
+  "description": "Symfony3 integration for Whoops",
+  "type": "bundle",
+  "license": "MIT",
+  "homepage": "https://github.com/nicoorfi/WhoopsBundle",
+  "authors": [
+    {
+      "name": "Nico Orfi",
+      "email": "nico_orfi@yahoo.com",
+      "homepage": "http://www.nico-orfi.com."
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "symfony/framework-bundle": "^3.0.0",
+    "filp/whoops": "^2.0.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Kejwmen\\WhoopsBundle": ""
+    }
+  },
+  "target-dir": "Kejwmen/WhoopsBundle",
+  "minimum-stability": "dev"
 }
